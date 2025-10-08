@@ -34,7 +34,7 @@ mongoose.connect(process.env.MONGO_URI, {
 app.use('/api/', authRoutes);
 
 app.get('/', (req, res) => {
-  res.json({ message: 'SNTFRNCS API' });
+  res.json({ message: 'LENNIT API' });
 });
 
 // 404 handler
